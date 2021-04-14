@@ -1,0 +1,40 @@
+Trial Templates:-
+
+    Skills:-
+            Top container with class 'skills'
+            Index: 'a'
+            Basic Skills:    'a:0'
+            Intermediate:    'a:1'
+            Advanced Skills: 'a:2'
+            Skill: x->'a:[0,1,2]:(.:)*' 
+                   Img:  'x:0'
+                   Text: 'x:1'    
+
+    Projects:-
+            Top Container with class 'projects'
+            Index: 'a'
+            Each project with class 'project'
+            Project: x-> 'a:[integer]'
+                     Tech Stack with class 'project-stack'
+                     Index: 'x:[.:]'
+
+
+    Contact:-
+            Container with any index anywher in the page
+            User mail with class 'user-mail'
+            Tag: 'a'
+            Attribute: 'href'
+            
+
+    Footer:-
+            Container next to top with class 'footer'
+            Index: x-> 'a:.+'
+            Link: 'x:[integer]'
+            Tag: 'a'
+            Attribute: 'href'
+
+
+
+                                        
+
+             

@@ -1,0 +1,74 @@
+.profileHeader{
+    color:var(--wsr-text-color-primary, #162D3D);
+    font-size: 46px;
+    font-weight: bold;
+    font-family:var(--wsr-font-family, HelveticaNeueW01-65Medi, HelveticaNeueW02-65Medi, HelveticaNeueW10-65Medi),"Helvetica Neue","Helvetica","Arial","\30E1\30A4\30EA\30AA","meiryo","\30D2\30E9\30AE\30CE\89D2\30B4   pro w3","hiragino kaku gothic pro","sans-serif";
+}
+
+.intro{
+    background-color: white;
+}
+
+.crBt{
+    color: white;
+    background-color: var(--wsr-color-10, #3899EC);
+    border-radius: var(--wsr-button-border-radius, 18px);
+    font-size: 18px;
+}
+
+.crBt:hover{
+
+    color: white;
+    background-color: var(--wsr-color-10, #3899EC);
+    border-radius: var(--wsr-button-border-radius, 18px);
+    font-size: 18px;
+
+}
+
+.navMenu{
+    box-shadow: 0 1px 5px 0 rgb(41 85 115 / 21%);
+}
+
+
+.profileSearch{
+    background-color: white;
+    border:solid 1px var(--wsr-color-30, #C1E4FE);
+    border-radius: 40px;
+    color: var(--wsr-text-color-primary, #162D3D);
+    font-family: var(--wsr-font-family, HelveticaNeueW01-45Ligh, HelveticaNeueW02-45Ligh, HelveticaNeueW10-45Ligh),"Helvetica Neue","Helvetica","Arial","\30E1\30A4\30EA\30AA","meiryo","\30D2\30E9\30AE\30CE\89D2\30B4   pro w3","hiragino kaku gothic pro","sans-serif";
+}
+
+.profileSearch:focus{
+    background-color:var(--wsr-color-30, #C1E4FE);
+}
+
+.pSinput{
+    border: none;
+    background:none;
+
+}
+
+.userSiteList{
+
+    border-radius: 5px;
+    background-color: white;
+    color: #32536a;
+    cursor: pointer;
+    font-weight: var(--wsr-font-weight-regular, 400);
+    box-shadow: inset 0 -1px 0 0 #dfe5eb;
+    font-family: var(--wsr-font-family, HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma),"Helvetica Neue","Helvetica","Arial","\30E1\30A4\30EA\30AA","meiryo","\30D2\30E9\30AE\30CE\89D2\30B4   pro w3","hiragino kaku gothic pro","sans-serif";
+}
+
+.userSiteList:hover{
+    background-color:#cbe5eb;
+    color: #162D3D;
+}
+
+.sitePreLink{
+    color: #162D3D;
+
+}
+
+.sitePreLink:hover{
+    color: #162D3D;
+}

@@ -1,0 +1,87 @@
+div.editorTextBox{
+   
+    resize: none; 
+    display: block;
+
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+
+
+    font-size: 16px;
+    
+
+}
+
+div.editorStyleBox{
+    border-bottom: 1px solid #ccc;
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 1px 1px 0px
+
+}
+
+div.verticalLine{
+    width: 1px; /* Use only border style */
+    height: 100%;
+    border: 1px ; /* This is default border style for <hr> tag */
+  }
+
+img.styleImg{
+    height: 50%;
+    width: 50%;
+
+}
+
+div.lineBreak{
+  width: 2px;
+  background:  #ccc;
+}
+
+div.editorTextBox{
+    font-size: 18px;
+    color: #333333;
+    padding: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+div.editorTextBox::selection{
+    color: white;
+    background-color: #333333;
+}
+
+div.editorTextBoxOuter{
+    width: calc(10vw + 40%);
+    margin-left:calc(-1vw);
+    border: 1px solid #ccc;
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 2px 5px 0px
+    
+}
+
+
+span.editorText{
+    font-size: 18px;
+    color: #333333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+p.editorText{
+    font-size: 18px;
+    color: #333333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* p.editorText::selection{
+    color: white;
+    background-color: #333333;
+}
+
+span.editorText::selection{
+    color: white;
+    background-color: #333333;
+} */
+/* Editor nav bar styles */
+/* border: 1px solid #CCC; */

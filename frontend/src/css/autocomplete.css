@@ -1,0 +1,14 @@
+.active-item{
+    background-color:#d0e2e0;
+    /* color: aliceblue; */
+}
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    /* border-color: black; */
+    box-shadow: 0 1px 1px wheat inset, 0 1 8px wheat;
+    outline: 0 none;
+    border-radius: 18px;
+}
+#skill-search{
+    border-radius: 18px;
+
+}

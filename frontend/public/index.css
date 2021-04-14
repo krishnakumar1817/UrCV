@@ -1,0 +1,17 @@
+html{
+    height: 100%;
+}
+
+#loadingPage{
+    display: none;
+    z-index: 1000;
+    width: 100%;
+
+    
+}
+
+
+#root{
+    z-index:0;
+}
+

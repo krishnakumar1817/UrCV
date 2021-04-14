@@ -1,0 +1,22 @@
+#userMenu{
+    border:none;
+    background:none;
+}
+
+.bootstrap-select #userMenu:focus {
+    border:none;
+    background:none;
+    box-shadow:none;
+    outline:none!important;
+}
+
+.dropdown-item:focus{
+    box-shadow: none;
+    background: none;
+}
+
+#user{
+    border:1px gray;
+    border-radius: 30%;
+    
+}

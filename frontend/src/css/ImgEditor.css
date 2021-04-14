@@ -1,0 +1,57 @@
+.imgEditorOverlay{ /* */
+    border: 1px solid #ccc;
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+    width: calc(10vw + 40%);
+    margin-left:calc(-1vw);
+}
+.imgOptOly{
+    /* z-index:1; */
+    position: relative;
+
+
+}
+.imgEditor{
+    padding-top: 3%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.imgEdtOpt{
+    padding: 3%;
+    background-color:  #45b29a;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    /* display: inline-block; */
+
+}
+
+.imgEdt{
+    width: calc(5vw + 40%);
+
+}
+
+.replaceoverlay {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    background: rgba(39, 42, 43, 0.8);
+    transition: opacity 200ms ease-in-out;
+    border-radius: 4px;
+    margin: -15px 0 0 -15px;
+    
+  
+  }
+
+:hover.replaceoverlay{
+    opacity: 1;
+}  

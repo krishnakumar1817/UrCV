@@ -1,0 +1,18 @@
+.editPanel{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 2%;
+        margin-left: 2%;
+}
+
+.divs{
+    position: relative;
+
+}
+
+.selected-div{
+    border: solid;
+    border-width: 3px;
+    border-color: #b0e2ff;
+}

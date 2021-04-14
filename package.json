@@ -1,0 +1,21 @@
+{
+  "name": "urcv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\" "
+  },
+  "author": "Krishna",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "lodash": "^4.17.20",
+    "lodash.clonedeep": "^4.5.0",
+    "react": "^17.0.1",
+    "react-color": "^2.19.3",
+    "react-textarea-autosize": "^8.2.0",
+    "require": "^2.4.20"
+  }
+}

@@ -1,0 +1,107 @@
+Selected Container:-
+        Editor enabled
+        hover overlay removed
+        Hover on individual elements enabled
+        
+        p,span: 
+            On Hover:
+                    Enable Edit tooltip 
+                    Remove
+                    Add an element above,below(img,p,link)
+                    Move Up and down
+                    Change color
+
+
+            On Click:
+                    Focus element on editor component
+                    Click tootlip
+                    Enable on editor 
+
+            On Editor:
+                    Enable: Click on page
+                            Click on editor
+                    Features:
+                            Focus element
+                            Size,Bold,Italic,Color,Text align,Background
+                            Selection of text as link
+
+
+        img   :
+            On Hover:
+                    Enable Edit tooltip 
+                    Remove
+                    Add an element above,below(img,p,link)
+                    Move Up and down
+                    Replace(Invoke or change source)
+            
+            On Click:
+                    Focus element on editor component
+                    Click tootlip
+                    Enable on editor 
+
+            On Editor:
+                    Enable: Click on page
+                            Click on editor
+                    Features:
+                            Focus element
+                            Replace:Prompt user pc,change link
+        
+        link:
+            On Hover:
+                    Enable Edit tooltip 
+                    Remove
+                    Add an element above,below(img,p,link)
+                    Move Up and down
+                    Replace(Change source)
+                    Replace as a section in the page
+            
+            On Click:
+                    Focus element on editor component
+                    Click tootlip
+                    Enable on editor
+                    Replace as a section in page:
+                        Enable hover over components and select id
+                
+            On Editor: 
+                    Enable: Click on page
+                            Click on editor
+                    Features:
+                            Focus element
+                            Replace:Prompt user pc,change link,
+                            add as link to a section of the page
+                    
+        div:
+            On Editor:
+                     (parent):
+                     Background colour or Image, Remove, Move, Add above or below
+                     List of containers contained in it
+
+                     (non-parent):
+                     Background colour or Image,
+                     List the text, images and link components contained in the container
+
+
+
+        
+            
+
+            
+                    
+
+
+
+Add element:
+                    Above: Add a (selected)section above current in the editor
+                    Below: Add a (selected)section above current in the editor
+
+
+
+
+
+Remarks/takeaways(Future development):
+
+                        Always have all the text contents under span tag in all the future templates.
+                        Always use inline style elements for all the template elements.
+
+
+

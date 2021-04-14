@@ -1,0 +1,124 @@
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+/* p{
+    color: #545454;
+    font-size: 50px;
+    font-family: "adobe-garamond-pro,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif";
+    
+} */
+/* p.h2{
+    color: #45b29a;
+    font-size: 30px;
+    font-family: "adobe-garamond-pro,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif"; */
+    /* font-family: "Courier New", Courier, monospace; */
+    /* font-family: brandon-grotesque, sans-serif;
+
+
+} */
+/* p.h1{
+    color: #1e836c; 
+
+    font-family:"Courier New", Courier, monospace;
+
+} */
+
+
+.skill-box{
+    border-top-right-radius: 50px ;
+    border-top-left-radius: 50px ;
+    border-bottom-right-radius: 50px ;
+    border-bottom-left-radius: 50px ;
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-top: 30px;
+    /* padding-right: 30px; */
+    padding-bottom: 30px;
+
+}
+.skill-box img{
+    width: 20%;
+    height: 20%;
+
+}
+
+.skill-box div span{
+    font-size: 12vm;
+    color: lavenderblush;
+    font-weight: bolder;
+    font-family: 'Galdeano';
+
+}
+
+.projects{
+    color: white;
+    font-family: brandon-grotesque, sans-serif;
+   
+
+}
+
+.projects div{
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+
+.project-stack a{
+    background-color:#fff; 
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+
+}
+
+.project img{
+    width: 50%;
+    padding-left: 25px;
+}
+
+.project p{
+    color: #fff; font-size: large;
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+
+
+}
+
+
+
+.project-description p{
+    font-size: larger;
+}
+
+/* .user-mail{
+    hover:
+} */
+
+.footer{
+    /* padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 5px;
+    padding-bottom: 10px; */
+    padding: 3em 0;
+    height: 150px;
+    
+}
+
+.footer a{
+    color: #45b29a;
+    font-size: larger;
+    /* font-weight: bold; */
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    
+}
