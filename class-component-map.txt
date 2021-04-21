@@ -15,7 +15,7 @@ Trial Templates:-
             Index: 'a'
             Each project with class 'project'
             Project: x-> 'a:[integer]'
-                     Tech Stack with class 'project-stack'
+                     Tech Stack with class 'project-stack' 
                      Index: 'x:[.:]'
 
 
